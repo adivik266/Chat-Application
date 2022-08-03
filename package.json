@@ -1,0 +1,22 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Aditya",
+  "license": "TIET",
+  "dependencies": {
+    "express": "^4.17.1",
+    "latest-version": "^6.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^6.3.3",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
